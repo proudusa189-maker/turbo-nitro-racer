@@ -25,7 +25,7 @@ jobs:
 
       - name: Download game source
         run: |
-          curl -sSL -o src.zip "https://muse.ai/files/1407546119102743/1093001543215208/l9ms2byjg0t1y5xj8nw5qxsk/tnr-source-v2.zip"
+          curl -sSL -o src.zip "https://muse.ai/files/1407546119102743/1458388799503990/ofhanb5ogwrz255ekdm76bvx/tnr-source-v3.zip"
           unzip -q src.zip
 
       - name: Build debug APK
